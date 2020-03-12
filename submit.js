@@ -25,7 +25,7 @@ async function main() {
         gas: numberToHex(500000),
         gasPrice: toHex(toWei(GAS_PRICE, 'gwei')),
         to: web3.eth.defaultAccount,
-        netId: 42,
+        netId: 1,
         // data,
         nonce
       }
