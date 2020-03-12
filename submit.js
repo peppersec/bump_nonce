@@ -22,7 +22,7 @@ async function main() {
       const tx = {
         from: web3.eth.defaultAccount,
         value: '0x00',
-        gas: numberToHex(500000), // please make sure its above `MINIMUM_CONSUMER_GAS_LIMIT` in your Oracle.sol
+        gas: numberToHex(500000),
         gasPrice: toHex(toWei(GAS_PRICE, 'gwei')),
         to: web3.eth.defaultAccount,
         netId: 42,
