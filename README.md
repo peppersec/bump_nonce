@@ -6,3 +6,5 @@ PRIVATE_KEY=
 GAS_PRICE=161
 BUMP_NONCE_TO=250
 ```
+
+`node submit.js`
