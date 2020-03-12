@@ -1,4 +1,10 @@
 ## How to run
+Make sure you have node.js > 10
+```
+node -v
+v11.15.0
+``
+
 edit .env
 ```
 RPC_URL=https://mainnet.infura.io/v3/YOUR_KEY
